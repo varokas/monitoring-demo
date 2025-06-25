@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  # You can add scrape configs here if needed
+  # For now, we're only receiving OTLP metrics
+  []

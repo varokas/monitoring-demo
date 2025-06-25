@@ -1,0 +1,11 @@
+[project]
+name = "python-otlp-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "opentelemetry-api>=1.34.1",
+    "opentelemetry-sdk>=1.34.1",
+    "opentelemetry-exporter-otlp-proto-http>=1.34.1",
+]
